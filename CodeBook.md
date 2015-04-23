@@ -23,9 +23,9 @@ X_train.txt, y_train.txt, subject_train.txt files to form a single data set
 
 This file was then reduced to only use the 66 variables that are either means \ standard deviations. The file was then aggregated on subject and activity to create one row per subject \ activity combination. The aggregation method on the variables was mean. THis does not necessarily make sense but is more for academic purposes.
 
-The file was saved in space delimited format
+The file was saved in space delimited format.
 
-following columns exist:
+The following columns exist:
 
 Subject:
 * type:int
