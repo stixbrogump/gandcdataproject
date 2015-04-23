@@ -5,13 +5,13 @@ date: "Thursday, April 23, 2015"
 output: html_document
 ---
 
-This is a codebook pertaining to the tidy data set submitted with the Getting and Cleaning Data course assignment
+This is a codebook pertaining to the tidy data set submitted with the Getting and Cleaning Data course assignment (saved as TidyData.txt in this repository)
 
 It extends the existing codebooks found at:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 relating to the following data sets:
 http://archive.ics.uci.edu/ml/machine-learning-databases/00240/
-For additional information on the variables, specifically look at the file "features_info.txt"
+For additional information on the variables, specifically look at the file "features_info.txt". This describes the how the values in each of the raw variables was derived. Note that in this dataset, we are simply taking the means of each "feature".
 
 This codebook describes in brief how the various variables in the final dataset were derived.
 Further details can be found in the README.md file and the run_analysis.R script
@@ -36,18 +36,12 @@ Activity:
 * description: a string representing the type of activity that was being performed for the measurement. These were coded from the original dataset as follows:
   
      1 -> WALKING
-     
      2 -> WALKING_UPSTAIRS
-     
      3 -> WALKING_DOWNSTAIRS
-     
      4 -> SITTING
-     
      5 -> STANDING
-     
      6 -> LAYING_DOWN
      
-
 Variables
 
 The following variables where created by taking the mean of the their values in the original dataset. This mean was grouped by subject and by activity
