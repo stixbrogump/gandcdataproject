@@ -28,17 +28,12 @@ The file was saved in space delimited format
 following columns exist:
 
 Subject:
-
-  type:int
-  
-  description: A number from 1-30 indicate the subject who partook in the trial
+* type:int
+* description: A number from 1-30 indicate the subject who partook in the trial
   
 Activity:
-
-  type:chr
-  
-  description: a string representing the type of activity that was being performed 
-  for the measurement. These were coded from the original dataset as follows:
+* type:chr
+* description: a string representing the type of activity that was being performed for the measurement. These were coded from the original dataset as follows:
   
      1 -> WALKING
      
