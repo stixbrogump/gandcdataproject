@@ -10,7 +10,7 @@ The purpose of the run_analysis.R is to produce a tidy dataset of the Samsung Sm
 To use the file, the following steps would need to be followed:
 
 1. Save run_analysis.R into your working directory
-2. Download the raw data files from http://archive.ics.uci.edu/ml/machine-learning-databases/00240/
+2. Download the raw data files from http://archive.ics.uci.edu/ml/machine-learning-databases/00240/ (Note: the Zip file containing the data has also been saved in Github in case the link \ data changed)
 3. Extract these key files directly into your working directory (i.e. no sub-directories):
 * UCI HAR Dataset\train\X_train.txt
 * UCI HAR Dataset\train\y_train.txt
